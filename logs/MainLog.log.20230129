@@ -1,0 +1,38 @@
+[ ERROR ] 2023-01-29 17:24:36 user.py:115 (1062, "Duplicate entry 'admin' for key 'userwechat.username'")
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\backends\mysql\client.py", line 44, in translate_exceptions_
+    return await func(self, *args)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\backends\mysql\client.py", line 172, in execute_insert
+    await cursor.execute(query, values)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\aiomysql\connection.py", line 672, in _read_query_result
+    await result.read()
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\aiomysql\connection.py", line 1153, in read
+    first_packet = await self.connection._read_packet()
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\aiomysql\connection.py", line 641, in _read_packet
+    packet.raise_for_error()
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'admin' for key 'userwechat.username'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\user.py", line 112, in LL_BindUserWechat_By_username_openid
+    await UserWechat.create(username=username, openid=openid)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1135, in create
+    await instance.save(using_db=db, force_create=True)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 943, in save
+    await executor.execute_insert(self)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\backends\base\executor.py", line 226, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\backends\mysql\client.py", line 54, in translate_exceptions_
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: (1062, "Duplicate entry 'admin' for key 'userwechat.username'")

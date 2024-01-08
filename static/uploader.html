@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script
+            type="text/javascript"
+            src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js"
+        ></script>
+        <style>
+            .btn_group {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .choose_container {
+                flex: 1;
+                padding: 10px 15px;
+                border: 1px solid #e4e4e4;
+                border-radius: 6px;
+                background-color: #fff;
+                color: black;
+                margin-right: 20px;
+            }
+            .upload_container {
+                flex: 1;
+                padding: 10px 15px;
+                border: 1px solid #e4e4e4;
+                border-radius: 6px;
+                background-color: #01b377;
+                color: white;
+            }
+            input[type='file'] {
+                display: none;
+            }
+            #list_container {
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box_container">
+            <input type="file" name="upfile" id="upfile" />
+            <div class="btn_group">
+                <button class="choose_container">选择文件</button>
+                <button class="upload_container">上传文件</button>
+            </div>
+            <div id="list_container"></div>
+        </div>
+        <script>
+            var param = window.location.search.split('=')[1];
+            var token = param.split("-")[0]
+            var url = param.split("-")[1]
+            // 文件上传后缀
+            var suffixList = [
+                'doc',
+                'docx',
+                'xls',
+                'xlsx',
+                'ppt',
+                'pptx',
+                'pdf',
+            ];
+            // 选择文件
+            var chooseBtn =document.getElementsByClassName('choose_container')[0];
+            var upIpt = document.getElementById('upfile');
+            var list = document.getElementById('list_container');
+            chooseBtn.addEventListener('click', function () {
+                upIpt.click();
+            });
+            var upFileList;
+            upIpt.addEventListener('change', function (res) {
+                upFileList = res.target.files;
+                if (res.target.files.length > 0) {
+                    list.innerText = res.target.files[0].name;
+                }
+            });
+            // 上传文件
+            var upBtn = document.getElementsByClassName('upload_container')[0];
+            upBtn.addEventListener('click', function () {
+                let fileName = upFileList[0].name;
+                let lastIndexOf = fileName.lastIndexOf('.') + 1;
+                //获取文件的后缀名 txt|...
+                let suffix = fileName.substring(lastIndexOf);
+                if (suffixList.includes(suffix)) {
+                    let fd = new FormData();
+                    fd.append('file', upFileList[0]);
+                    fetch(url, {
+                        method: 'POST',
+                        body: fd,
+                        headers: {
+                            Authorization: 'Bearer ' + token,
+                        },
+                    })
+                        .then((response) => response.json())
+                        .then((res) => {
+                            wx.miniProgram.postMessage({
+                                data: {
+                                    res: res,
+                                },
+                            });
+                            wx.miniProgram.navigateBack({ delta: 1 });
+                        })
+                        .catch((err) => {
+                            console.log('fetch error', err);
+                        });
+                } else {
+                    console.log('文件上传格式不符合要求');
+                }
+            });
+        </script>
+    </body>
+</html>

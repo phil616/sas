@@ -1,0 +1,312 @@
+[ ERROR ] 2023-01-25 17:20:03 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:20:03 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:20:03 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:20:03 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:20:03 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:21:45 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:21:45 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:21:45 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:21:45 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:21:45 moral.py:26 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:37 moral.py:27 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:37 moral.py:27 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:37 moral.py:27 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:37 moral.py:27 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:37 moral.py:27 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:47 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:47 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:47 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:47 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:22:47 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:23:04 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:23:04 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:23:04 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:23:04 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:23:04 moral.py:28 action_id is non nullable field, but null was passed
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 23, in DL_MoralAction_Create_By_Schema
+    await MoralAction.create(**moralAction.dict())
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 1132, in create
+    instance = cls(**kwargs)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 671, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\models.py", line 697, in _set_kwargs
+    raise ValueError(f"{key} is non nullable field, but null was passed")
+ValueError: action_id is non nullable field, but null was passed
+[ ERROR ] 2023-01-25 17:25:16 moral.py:151 1 validation error for MoralRecordSchema
+rec_status
+  field required (type=value_error.missing)
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 142, in LL_Create_MoralRecordApply_By_Schema
+    MoralRecordSchema(
+  File "pydantic\main.py", line 342, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MoralRecordSchema
+rec_status
+  field required (type=value_error.missing)
+[ ERROR ] 2023-01-25 17:25:39 moral.py:152 1 validation error for MoralRecordSchema
+rec_status
+  field required (type=value_error.missing)
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 142, in LL_Create_MoralRecordApply_By_Schema
+    MoralRecordSchema(
+  File "pydantic\main.py", line 342, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MoralRecordSchema
+rec_status
+  field required (type=value_error.missing)
+[ ERROR ] 2023-01-25 17:51:29 moral.py:96 Unknown filter param 'record_id'. Allowed base values are ['action_id', 'action_score', 'chk_commit', 'chk_username', 'create_by', 'create_time', 'rec_id', 'rec_msg', 'rec_status', 'rec_urls', 'rec_username', 'update_by', 'update_time']
+Traceback (most recent call last):
+  File "F:\pyoa\sas_beta\.\curd\moral.py", line 92, in DL_MoralRecord_Update_By_Id
+    result = await MoralRecord.filter(record_id=rec_id).first()
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\queryset.py", line 998, in __await__
+    self._make_query()
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\queryset.py", line 960, in _make_query
+    self.resolve_filters(
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\queryset.py", line 132, in resolve_filters
+    modifier &= node.resolve(model, model._meta.basetable)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\expressions.py", line 359, in resolve
+    return self._resolve_kwargs(model, table)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\expressions.py", line 317, in _resolve_kwargs
+    key, value = self._get_actual_filter_params(model, raw_key, raw_value)
+  File "F:\pyoa\sas_beta\venv\lib\site-packages\tortoise\expressions.py", line 311, in _get_actual_filter_params
+    raise FieldError(f"Unknown filter param '{key}'. Allowed base values are {allowed}")
+tortoise.exceptions.FieldError: Unknown filter param 'record_id'. Allowed base values are ['action_id', 'action_score', 'chk_commit', 'chk_username', 'create_by', 'create_time', 'rec_id', 'rec_msg', 'rec_status', 'rec_urls', 'rec_username', 'update_by', 'update_time']
