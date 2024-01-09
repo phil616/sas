@@ -2,11 +2,17 @@
 
 学生事务管理系统
 
-
-requirements:
-1. uvicorn 
-2. tortoise-orm
-3. tortoise
+毕设题目：基于FastAPI的学团工作事务管理系统的设计与实现
 
 设计说明：
-https://www.yuque.com/cst3/orwkic
+https://www.yuque.com/cst3/orwkic  语雀实时更新
+
+
+## 目录说明
+
+src/frontend 为前端代码
+
+src/backend 为后端代码
+
+src/append 为小程序代码
+
