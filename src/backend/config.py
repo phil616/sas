@@ -22,8 +22,8 @@ class Config(BaseSettings):
     # WX_MINI_APPID = "wx03c5f3aab382a122"  # Debug
     WX_MINI_APPID = "wxe1c0c0fe6041bc8f"
 
-    # WX_MINI_SECRET = "f30790f82088ad9c85ab1cc12c64eebe" #Debug
-    WX_MINI_SECRET = "fc020f6ca576b69f1af75d630100b328"
+
+    WX_MINI_SECRET = "***"
     WX_MINI_URL = f"https://api.weixin.qq.com/sns/jscode2session?appid={WX_MINI_APPID}&secret={WX_MINI_SECRET}"
 
     # Email server
