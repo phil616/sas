@@ -33,3 +33,4 @@ class Cryption:
 
 
 crypter = Cryption(run_cfg.APP_ENCRYPT_SECRET)  # 静态全局对象,使用其进行各处加密
+
