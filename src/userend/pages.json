@@ -15,7 +15,7 @@
                 "navigationBarTitleText": "开始页",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "pages/service/service",

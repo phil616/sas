@@ -1,5 +1,5 @@
-let apiUrl = "https://phil.mynatapp.cc/api/v1";
-let staticUrl = "https://phil.mynatapp.cc/static"
+let apiUrl = "http://localhost/api/v1";
+let staticUrl = "http://localhost/static"
 export default{
 	apiUrl,staticUrl
 }

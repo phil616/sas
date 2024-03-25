@@ -49,6 +49,15 @@
 				url:"/pages/accords/accords"
 			})},
 			userLogin(){
+				
+				// 点击登录之后触发的函数
+				uni.request({
+					url:"http://localhost/api/v1/group",
+					method:"GET",
+					success: (resp) => {
+						console.log(resp)
+					}
+				})
 				var _this = this
 				if (this.isBinded == false){
 					// 通过wechat_token获得token和Openid,然后进行绑定

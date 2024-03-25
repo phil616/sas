@@ -1,8 +1,8 @@
-from pydantic import BaseSettings
+from pydantic import BaseModel as BaseSettings
 from typing import List
 
 
-class Config(BaseSettings):
+class Config():
     DEBUG = True
     # TODO 文档信息，标题，简介Swagger信息
     # 跨域请求
@@ -32,16 +32,16 @@ class Config(BaseSettings):
     EMAIL_HOST_SERVER: str = "smtp.163.com"
 
 
-class DataConfig(BaseSettings):
+class DataConfig():
     # -----------------MySQL-----------
     DB_ORM_CONFIG: dict = {
         "connections": {
             "base": {  # 名为base的基本数据库
                 'engine': 'tortoise.backends.mysql',
                 "credentials": {
-                    'host': '192.168.0.3',
+                    'host': 'localhost',
                     'user': 'root',
-                    'password': 'Carvinte#616',
+                    'password': '123456',
                     'port': 3306,
                     'database': 'sas_beta_api',  # 数据库名称
                 }
@@ -99,7 +99,7 @@ class DataConfig(BaseSettings):
         'authentication_source': 'admin'
     }
 
-class DeployConfig(BaseSettings):
+class DeployConfig():
     APP_DEBUG: bool = True
     APP_RELOAD: bool = False
     APP_RUN_PORT: int = 8000
