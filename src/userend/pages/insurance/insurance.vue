@@ -25,7 +25,8 @@
 		data() {
 			return {
 				userMITStatus:{},
-				mapping:{}
+				mapping:{},
+				action_detail:{}
 			}
 		},
 		methods: {

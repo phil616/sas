@@ -67,7 +67,7 @@ class DataConfig():
     MYSQL_TABLE_AUTOGEN: bool = True
     # -----------------Redis-----------
     CACHE_CONFIG: dict = {
-        "CACHE_HOST": "192.168.0.3",  # Redis连接
+        "CACHE_HOST": "localhost",  # Redis连接
         "CACHE_PORT": 6379,  # Redis端口
         "CACHE_CP": "utf-8",  # Redis CodePage （编码）
         "CACHE_decode_responses": True  # 与Redis的连接编码，True会将结果返回为字符串
@@ -91,7 +91,7 @@ class DataConfig():
     ]
     # ------------- Mongo DB --------
     mongodbinfo = {
-        'host': '192.168.0.3',
+        'host': 'localhost',
         'port': 27017,
         'username': 'admin',
         'password': '123456',

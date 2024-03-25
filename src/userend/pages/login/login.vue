@@ -49,58 +49,37 @@
 				url:"/pages/accords/accords"
 			})},
 			userLogin(){
-				
 				// 点击登录之后触发的函数
+				var _this = this
 				uni.request({
-					url:"http://localhost/api/v1/group",
-					method:"GET",
-					success: (resp) => {
-						console.log(resp)
+					url:config.apiUrl+"/token",
+					method:"POST",
+					header:{'content-type': "application/x-www-form-urlencoded"},
+					data:
+					{username:_this.formData.username,password:_this.formData.password},
+					success: (res) => {
+						if(res.statusCode == 200){
+							uni.setStorage({
+								key:"token",
+								data:res.data.access_token
+							})
+							utils.verifyTokenExp()
+							uni.reLaunch({
+								url:"/pages/home/home"
+							})
+						}else{
+							uni.showModal({
+								title:"登录失败",
+								content:`${JSON.stringify(res.data)}`
+							})
+						}
 					}
 				})
-				var _this = this
-				if (this.isBinded == false){
-					// 通过wechat_token获得token和Openid,然后进行绑定
-					// 先绑定，再调用微信登陆。
-					uni.login({
-						success: res => {
-							_this.userBindWechat(res.code,_this.formData.username,_this.formData.password)
-						}
-					})
-				}else{
-					uni.request({
-						url:config.apiUrl+"/token",
-						method:"POST",
-						header:{
-							'content-type': "application/x-www-form-urlencoded"
-						},
-						data:
-						{
-							username:_this.formData.username,
-							password:_this.formData.password
-						},
-						success: (res) => {
-							if(res.statusCode == 200){
-								uni.setStorage({
-									key:"token",
-									data:res.data.access_token
-								})
-								utils.verifyTokenExp()
-								uni.reLaunch({
-									url:"/pages/home/home"
-								})
-							}else{
-								uni.showModal({
-									title:"登录失败",
-									content:`${JSON.stringify(res.data)}`
-								})
-							}
-						}
-					})
-				}
-				// 用户名登录逻辑，通过code登录一次，
-			},
+			
+			// 用户名登录逻辑，通过code登录一次，
+		},
 			wechatLogin(){
+				console.log("deprated")
 				// 微信登陆逻辑，通过code登录获取token，如果失败，则未绑定，弹出提示。
 				if(this.isBinded == true){
 					uni.reLaunch({

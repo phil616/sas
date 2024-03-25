@@ -1,7 +1,7 @@
 from .BaseTimestampMixin import TimestampMixin
 from tortoise import fields
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional,Dict
 
 
 class MIT(TimestampMixin):
@@ -24,7 +24,7 @@ class MITSchema(BaseModel):
     username: str
     mit_status: int
     mit_attachments: Optional[str]
-    mit_info: Optional[dict]  # 正常情况下留空
+    mit_info: Optional[Dict]  # 正常情况下留空
     mit_choice: int = 0
     mit_on: bool = True
     mit_msgmap: Optional[str]
