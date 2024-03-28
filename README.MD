@@ -16,3 +16,13 @@ src/backend 为后端代码
 
 src/append 为小程序代码
 
+## TODO
+
+### 前端TODO
+1. 修改硬编码，与论文同步
+2. 修改细节和内容
+### 后端TODO 
+1. 增加日志，捕获unicorn的日志
+2. 增加logur作为主要日志系统
+### 文档和API TODO
+1. GPA 尚未加入文档

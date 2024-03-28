@@ -3,7 +3,7 @@
 	本模块与材料相同
 	-->
 	<view>
-		<uni-section title="所有需要提交的活动" type="line">
+		<uni-section title="所有奖助学金相关的内容如下:" type="line">
 			<!-- 加载时渲染，按条件筛选 -->
 			<uni-collapse accordion v-model="accordionVal">
 				<uni-collapse-item

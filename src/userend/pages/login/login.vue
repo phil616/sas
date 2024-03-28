@@ -17,7 +17,10 @@
 			</uni-forms>
 			<button @click="userLogin" type="primary">登录</button>
 			<view style="height: 20rpx;"></view>
+			<!--  微信登陆已经取消
 			<button @click="wechatLogin" type="primary">微信登录</button>
+			-->
+			
 		</view>
 		<view class="login-footer">
 			<uni-section class="mb-10" title="登录提示">
