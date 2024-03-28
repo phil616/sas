@@ -1,0 +1,72 @@
+{
+    "users":[{
+        "username": "test",
+        "password": "test",
+        "user_scope": 15,
+        "user_clazz": "20403",
+        "user_phone": "04310431",
+        "user_info": {}
+      },
+      {
+        "username": "demo",
+        "password": "test",
+        "user_scope": 15,
+        "user_clazz": "20403",
+        "user_phone": "04310431",
+        "user_info": {}
+      }
+    ],
+    "students":[
+        {
+            "username": "test",
+            "stu_id": "042040317",
+            "stu_name": "麻铭宇",
+            "stu_clazz": "20403",
+            "stu_sex": "男",
+            "stu_card": "220123456789",
+            "stu_nation": "中国",
+            "stu_politics": "共青团员",
+            "stu_origin": "吉林",
+            "stu_home": "吉林长春",
+            "stu_phone": "123456789",
+            "stu_email": "mail@163.com",
+            "stu_location": "四公寓520",
+            "stu_status": "有效",
+            "stu_graduate": "在校"
+          },
+          {
+            "username": "demo",
+            "stu_id": "042040315",
+            "stu_name": "费东旭",
+            "stu_clazz": "20403",
+            "stu_sex": "男",
+            "stu_card": "220123456789",
+            "stu_nation": "中国",
+            "stu_politics": "共青团员",
+            "stu_origin": "吉林",
+            "stu_home": "吉林长春",
+            "stu_phone": "123456789",
+            "stu_email": "mail@163.com",
+            "stu_location": "四公寓520",
+            "stu_status": "有效",
+            "stu_graduate": "在校"
+          },
+          {
+            "username": "group",
+            "stu_id": "042040314",
+            "stu_name": "董春蓬",
+            "stu_clazz": "20403",
+            "stu_sex": "男",
+            "stu_card": "220123456789",
+            "stu_nation": "中国",
+            "stu_politics": "共青团员",
+            "stu_origin": "吉林",
+            "stu_home": "吉林长春",
+            "stu_phone": "123456789",
+            "stu_email": "mail@163.com",
+            "stu_location": "四公寓520",
+            "stu_status": "有效",
+            "stu_graduate": "在校"
+          }
+    ]
+}

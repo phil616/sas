@@ -1,0 +1,50 @@
+[
+    {
+        "username": "test",
+        "gpa_type": "线性代数",
+        "gpa_score": "92",
+        "gpa_time": "2023-1"
+      },
+      {
+        "username": "test",
+        "gpa_type": "物理",
+        "gpa_score": "85",
+        "gpa_time": "2023-1"
+      },
+      {
+        "username": "test",
+        "gpa_type": "化学",
+        "gpa_score": "90",
+        "gpa_time": "2023-2"
+      },
+      {
+        "username": "test",
+        "gpa_type": "英语",
+        "gpa_score": "95",
+        "gpa_time": "2023-2"
+      },
+      {
+        "username": "test",
+        "gpa_type": "计算机科学",
+        "gpa_score": "89",
+        "gpa_time": "2023-2"
+      },
+      {
+        "username": "test",
+        "gpa_type": "编程原理",
+        "gpa_score": "93",
+        "gpa_time": "2023-2"
+      },
+      {
+        "username": "test",
+        "gpa_type": "数据结构",
+        "gpa_score": "87",
+        "gpa_time": "2023-1"
+      },
+      {
+        "username": "test",
+        "gpa_type": "操作系统",
+        "gpa_score": "91",
+        "gpa_time": "2023-1"
+      }
+]

@@ -24,5 +24,11 @@ src/append 为小程序代码
 ### 后端TODO 
 1. 增加日志，捕获unicorn的日志
 2. 增加logur作为主要日志系统
+3. 学生工作- static广播
 ### 文档和API TODO
 1. GPA 尚未加入文档
+
+# 测试TODO
+1. 加入德育分测试
+2. 加入文件等测试
+

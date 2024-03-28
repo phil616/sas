@@ -1,0 +1,52 @@
+[
+    {
+        "act_grant": "学院团委",
+        "act_title": "第五期青年大学习",
+        "act_desc": "请各位同学提交第五期青年大学习的附件",
+        "act_range": "全体",
+        "act_on": true
+    },
+    {
+        "act_grant": "学院学生会",
+        "act_title": "奖学金评定",
+        "act_desc": "请各位同学提交奖学金材料",
+        "act_range": "全体",
+        "act_on": true
+    },
+    {
+        "act_grant": "学院办公室",
+        "act_title": "先进个人材料申请",
+        "act_desc": "请各位同学提交关于先进个人称号的相关材料",
+        "act_range": "全体",
+        "act_on": true
+    },
+    {
+        "act_grant": "体育部",
+        "act_title": "校园迷你马拉松",
+        "act_desc": "请感兴趣的同学报名参加校园迷你马拉松比赛",
+        "act_range": "全体",
+        "act_on": true
+    },
+    {
+        "act_grant": "图书馆",
+        "act_title": "图书馆志愿者招募",
+        "act_desc": "图书馆现招募志愿者，有意向者请提交申请表",
+        "act_range": "全体",
+        "act_on": false
+    },
+    {
+        "act_grant": "艺术系",
+        "act_title": "春季艺术展览",
+        "act_desc": "春季艺术展览即将开始，欢迎大家踊跃提交作品",
+        "act_range": "全体",
+        "act_on": true
+    },
+    {
+        "act_grant": "国际交流中心",
+        "act_title": "海外交流项目说明会",
+        "act_desc": "有意向参加海外交流项目的同学，请参加本周五的说明会",
+        "act_range": "全体",
+        "act_on": true
+    }
+
+]
