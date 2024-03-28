@@ -38,7 +38,7 @@
 	export default {
 		data() {
 			return {
-				student_info:{}
+				student_info:{},
 			}
 		},
 		methods: {
