@@ -8,7 +8,7 @@ from config import data_cfg
 from model.File import FileMetaInfo, FileInfo, FileList, FileStorageResp
 from response.exceptions import E401
 
-upload_route = APIRouter(tags=["File"])
+upload_route = APIRouter(tags=["文件操作"])
 
 
 @upload_route.post("/upload/new")

@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from model.GPA import GPA,GPASchema
-gpa_router = APIRouter(prefix="/gpa")
+gpa_router = APIRouter(prefix="/gpa",tags=["成绩信息操作"])
 
 @gpa_router.get("/get/user/scorelist")
 async def curd_get_user_score_list(username:str):

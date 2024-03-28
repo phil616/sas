@@ -7,7 +7,6 @@ debug = APIRouter(tags=['调试'])
 
 @debug.get("/group",dependencies=[Security(check_permissions,scopes=["group"])])
 async def get_group():
-
     return "success"
 
 @debug.get("/normal",dependencies=[Security(check_permissions,scopes=["student"])])

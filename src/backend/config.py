@@ -1,4 +1,4 @@
-from pydantic import BaseModel as BaseSettings
+
 from typing import List
 
 
@@ -56,7 +56,8 @@ class DataConfig():
                     "model.Student",
                     "model.MIT",
                     "model.ImageTask",
-                    "model.Doc"
+                    "model.Doc",
+                    "model.GPA"
                 ],
                 "default_connection": "base"  # 链接的数据源
             },
