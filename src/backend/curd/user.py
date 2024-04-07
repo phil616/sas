@@ -55,7 +55,9 @@ async def DL_User_Retrieve_By_username(username: str) -> Union[None, User]:
     except Exception as e:
         logger.exception(e)
         return None
-
+async def DL_User_Retrieve_ALL()->List[User]:
+    users = await User.all()
+    return users
 
 async def DL_User_Retrieve_By_openid(openid: str) -> Union[None, User]:
     user = await UserWechat.filter(openid=openid).first()

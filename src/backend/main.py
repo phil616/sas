@@ -41,3 +41,4 @@ application.add_middleware(
 )
 
 application.include_router(api)
+app = application
