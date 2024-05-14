@@ -74,7 +74,7 @@ async def check_permissions(security_scopes: SecurityScopes, token=Depends(OAuth
     if security_scopes.scopes:
         req_scopes = security_scopes.scopes
         if not set(req_scopes).issubset(set(user_scope)):  # 集合方法来验证是否拥有足够的权限
-            E401(f"您没有足够的权限", {"WWW-Authenticate": f"Bearer {token}"})
+            E401("您没有足够的权限", {"WWW-Authenticate": f"Bearer {token}"})
 
 
 async def wechat_request(code: str) -> WechatLoginServerSchema:
